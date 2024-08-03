@@ -1,0 +1,241 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Roboto';
+  background-color: white;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  list-style-type: none;
+  display: flex;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.header {
+  height: 72px;
+  width: 1440px;
+}
+.logo {
+  margin: 0px;
+  position: absolute;
+  left: 156px;
+  top: 24px;
+  color: rgba(77, 90, 229, 1);
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 'Raleway';
+}
+.logo span {
+  color: rgba(46, 47, 66, 1);
+}
+.navigation {
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+  color: rgba(46, 47, 66, 1);
+}
+.address {
+  position: absolute;
+  top: 24px;
+  left: 940px;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(46, 47, 66, 1);
+}
+.face {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  background-color: rgba(46, 47, 66, 1);
+}
+.face h1 {
+  margin: 0px;
+  position: absolute;
+  top: 188px;
+  left: 472px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+}
+.face button {
+  position: absolute;
+  top: 356px;
+  left: 636px;
+  width: 169px;
+  height: 56px;
+  border: 0px;
+  padding: 0px;
+  background-color: rgb(77, 90, 229, 1);
+  color: white;
+  border-radius: 4px;
+}
+.features {
+  position: absolute;
+  top: 720px;
+  left: 156px;
+}
+.features ul {
+  gap: 24px;
+  line-height: 24px;
+}
+.features h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(46, 47, 66, 1);
+}
+.features p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 264px;
+  height: 72px;
+  color: rgba(67, 68, 85, 1);
+}
+.our-team {
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  top: 1016px;
+  background-color: rgba(244, 244, 253, 1);
+}
+.our-team h2 {
+  position: absolute;
+  top: 120px;
+  left: 639px;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
+}
+.team-cards {
+  position: absolute;
+  top: 232px;
+  left: 156px;
+  gap: 24px;
+  height: 380px;
+}
+
+.team-cards li {
+  background-color: white;
+  text-align: center;
+  line-height: 24px;
+}
+.card img {
+  display: block;
+}
+.card h3 {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  color: rgba(46, 47, 66, 1);
+  font-size: 20px;
+  font-weight: 500;
+}
+.card p {
+  color: rgba(67, 68, 85, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+.portfolio {
+  position: absolute;
+  top: 1868px;
+  left: 156px;
+  border: 1px;
+  width: 1128px;
+  height: 1000px;
+}
+.portfolio h2 {
+  margin: 0px;
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
+}
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 360px;
+  height: 420px;
+  gap: 24px;
+}
+.portfolio li {
+  margin-bottom: 24px;
+}
+.portfolio img {
+  display: block;
+}
+.portfolio-description h3 {
+  margin-bottom: 8px;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(46, 47, 66, 1);
+}
+.portfolio-description p {
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(67, 68, 85, 1);
+}
+.portfolio-description {
+  display: block;
+  position: relative;
+  width: 360px;
+  height: 120px;
+  border: 1px solid;
+  border-color: rgba(231, 233, 252, 1);
+}
+footer {
+  position: absolute;
+  top: 2988px;
+  width: 1440px;
+  height: 312px;
+  background-color: rgba(46, 47, 66, 1);
+}
+footer ul {
+  gap: 0px;
+  position: relative;
+  display: block;
+  top: 100px;
+  left: 156px;
+  width: 264px;
+  height: 112px;
+}
+footer h3 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgba(77, 90, 229, 1);
+}
+footer span {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgba(244, 244, 253, 1);
+}
+footer p {
+  color: rgba(244, 244, 253, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
