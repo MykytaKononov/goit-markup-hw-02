@@ -2,8 +2,9 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Arial', sans-serif;
   background-color: white;
+  color: rgba(46, 47, 66, 1);
 }
 ul {
   margin: 0px;
@@ -18,6 +19,10 @@ p {
   padding: 0px;
   border: 0px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .header {
   height: 72px;
   width: 1440px;
@@ -27,13 +32,12 @@ p {
   position: absolute;
   left: 156px;
   top: 24px;
-  color: rgba(77, 90, 229, 1);
   font-size: 18px;
   line-height: 21px;
   font-family: 'Raleway';
 }
 .logo span {
-  color: rgba(46, 47, 66, 1);
+  color: rgba(77, 90, 229, 1);
 }
 .navigation {
   font-size: 16px;
@@ -42,7 +46,10 @@ p {
   top: 24px;
   left: 347px;
   gap: 40px;
-  color: rgba(46, 47, 66, 1);
+}
+.navigation a:hover,
+.navigation a:focus {
+  color: rgba(64, 75, 191, 1);
 }
 .address {
   position: absolute;
@@ -51,7 +58,10 @@ p {
   gap: 40px;
   font-size: 16px;
   font-weight: 400;
-  color: rgba(46, 47, 66, 1);
+}
+.address a:hover,
+.address a:focus {
+  color: rgba(64, 75, 191, 1);
 }
 .face {
   position: absolute;
@@ -72,6 +82,7 @@ p {
   color: white;
 }
 .face button {
+  cursor: pointer;
   position: absolute;
   top: 356px;
   left: 636px;
@@ -82,6 +93,10 @@ p {
   background-color: rgb(77, 90, 229, 1);
   color: white;
   border-radius: 4px;
+}
+.face button:hover,
+.face button:focus {
+  background-color: rgba(64, 75, 191, 1);
 }
 .features {
   position: absolute;
@@ -95,7 +110,6 @@ p {
 .features h2 {
   font-size: 20px;
   font-weight: 500;
-  color: rgba(46, 47, 66, 1);
 }
 .features p {
   font-size: 16px;
@@ -118,7 +132,6 @@ p {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: rgba(46, 47, 66, 1);
 }
 .team-cards {
   position: absolute;
@@ -127,7 +140,6 @@ p {
   gap: 24px;
   height: 380px;
 }
-
 .team-cards li {
   background-color: white;
   text-align: center;
@@ -139,7 +151,6 @@ p {
 .card h3 {
   margin-top: 32px;
   margin-bottom: 8px;
-  color: rgba(46, 47, 66, 1);
   font-size: 20px;
   font-weight: 500;
 }
@@ -163,7 +174,6 @@ p {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-  color: rgba(46, 47, 66, 1);
 }
 .portfolio-cards {
   display: grid;
@@ -184,7 +194,6 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: rgba(46, 47, 66, 1);
 }
 .portfolio-description p {
   margin-left: 16px;
