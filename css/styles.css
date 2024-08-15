@@ -23,37 +23,53 @@ a {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
 }
-.logo span {
+.span {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
   color: #2e2f42;
 }
+.span-alt {
+  font-family: raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #f4f4fd;
+}
+
 .navigation {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 .navigation:hover,
 .navigation:focus {
   color: rgba(64, 75, 191, 1);
 }
 .address {
+  font-style: normal;
+}
+.address-ul {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address a:hover,
-.address a:focus {
+.address-ul a:hover,
+.address-ul a:focus {
   color: rgba(64, 75, 191, 1);
 }
 .face {
   background-color: rgba(46, 47, 66, 1);
 }
-.h1 {
+.face-text {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: white;
 }
 .button {
@@ -132,13 +148,6 @@ footer h3 {
   font-weight: 700;
   line-height: 21px;
   color: rgba(77, 90, 229, 1);
-}
-.span {
-  font-family: raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  color: rgba(244, 244, 253, 1);
 }
 .paragraph {
   color: rgba(244, 244, 253, 1);
