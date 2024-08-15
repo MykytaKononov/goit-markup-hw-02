@@ -38,7 +38,6 @@ a {
   color: rgba(64, 75, 191, 1);
 }
 .address {
-  gap: 40px;
   font-size: 16px;
   font-weight: 400;
 }
@@ -88,9 +87,6 @@ a {
   font-size: 36px;
   line-height: 40px;
   text-align: center;
-}
-.team-cards {
-  height: 380px;
 }
 .team-cards li {
   background-color: white;
