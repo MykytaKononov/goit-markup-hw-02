@@ -52,11 +52,11 @@ a {
 .address {
   font-style: normal;
 }
-.address-ul {
+.address-link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .address-ul a:hover,
 .address-ul a:focus {
@@ -66,6 +66,7 @@ a {
   background-color: rgba(46, 47, 66, 1);
 }
 .face-text {
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -73,6 +74,7 @@ a {
   color: white;
 }
 .button {
+  cursor: pointer;
   background-color: rgb(77, 90, 229, 1);
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -84,12 +86,20 @@ a {
 .button:focus {
   background-color: rgba(64, 75, 191, 1);
 }
-.features ul {
-  line-height: 24px;
+.features-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.features h2 {
+
+.features-h2 {
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
 }
 .features p {
   font-size: 16px;
@@ -99,44 +109,54 @@ a {
 .our-team {
   background-color: rgba(244, 244, 253, 1);
 }
-.our-team h2 {
+.our-team-h2 {
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-cards li {
   background-color: white;
-  text-align: center;
-  line-height: 24px;
 }
 
-.card h3 {
+.card-h3 {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.card p {
+.card-p {
   color: rgba(67, 68, 85, 1);
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: 0.02em;
 }
-.portfolio h2 {
+.portfolio-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-cards {
   grid-template-columns: repeat(3, auto);
 }
-.portfolio-description h3 {
+.portfolio-h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.portfolio-description p {
+.portfolio-p {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: rgba(67, 68, 85, 1);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer {
