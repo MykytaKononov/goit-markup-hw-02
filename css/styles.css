@@ -47,7 +47,7 @@ a {
 }
 .navigation:hover,
 .navigation:focus {
-  color: rgba(64, 75, 191, 1);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -86,13 +86,6 @@ a {
 .button:focus {
   background-color: rgba(64, 75, 191, 1);
 }
-.features-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 
 .features-h2 {
   font-size: 20px;
@@ -101,15 +94,17 @@ a {
   line-height: 1.2;
   color: #2e2f42;
 }
-.features p {
+.features-p {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   font-weight: 400;
   color: rgba(67, 68, 85, 1);
 }
 .our-team {
   background-color: rgba(244, 244, 253, 1);
 }
-.our-team-h2 {
+.our-team-h {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -121,19 +116,21 @@ a {
   background-color: white;
 }
 
-.card-h3 {
+.card-h {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .card-p {
   color: rgba(67, 68, 85, 1);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
-.portfolio-h2 {
+.portfolio-main-h {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -145,7 +142,7 @@ a {
 .portfolio-cards {
   grid-template-columns: repeat(3, auto);
 }
-.portfolio-h3 {
+.portfolio-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
