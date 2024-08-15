@@ -18,7 +18,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.03em;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
@@ -58,8 +58,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-ul a:hover,
-.address-ul a:focus {
+.address-link:hover,
+.address-link:focus {
   color: rgba(64, 75, 191, 1);
 }
 .face {
